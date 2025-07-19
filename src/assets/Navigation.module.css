@@ -1,0 +1,24 @@
+.nav {
+  background: #1976d2;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  width: calc(100vw - 32px);
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #bbdefb;
+}
+
+.link[aria-current="page"] {
+  text-decoration: underline;
+  font-weight: bold;
+}
